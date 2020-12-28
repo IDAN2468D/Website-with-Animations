@@ -13,11 +13,11 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
-    background: red;
 `;
 
 const NavLink = css`
     color: #fff;
+    font-weight: 700;
     display: flex;
     align-items: center;
     padding: 0 1rem;
@@ -29,10 +29,12 @@ const NavLink = css`
 const Logo = styled(Link)`
     ${NavLink}
     font-style: italic;
+    font-size: 20px;
 `;
 
 const MenuBars = styled(FaBars)`
    display: none;
+   color: #fff;
 
    @media screen and (max-width: 768px){
        display: block;
@@ -72,11 +74,11 @@ const NavBtn = styled.div`
     }
 `;
 
-function Navbar() {
+function Navbar({ toggle }) {
     return (
         <Nav>
             <Logo to="/">ELIXR</Logo>
-            <MenuBars />
+            <MenuBars onClick={toggle} />
             <NavMenu>
                 {menuData.map((item, index) => (
                     <NavMenuLinks to={item.link} key={index}>

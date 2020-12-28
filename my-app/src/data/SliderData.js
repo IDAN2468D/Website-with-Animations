@@ -8,15 +8,15 @@ import ImageFour from '../images/house-4.jpg';
 export const SliderData = [
     {
         title: "Luxury Villa in Baili, Iadonesia",
-        price: "$4,280,000",
+        price: "$6,280,000",
         path: "/homes",
         label: "View Home",
-        inage: ImageOne,
+        image: ImageOne,
         alt: "House"
     },
     {
         title: "Luxury Villa in Baili, Iadonesia",
-        price: "$4,280,000",
+        price: "$8,280,000",
         path: "/homes",
         label: "View Home",
         image: ImageTwo,
@@ -24,7 +24,7 @@ export const SliderData = [
     },
     {
         title: "Luxury Villa in Baili, Iadonesia",
-        price: "$4,280,000",
+        price: "$9,280,000",
         path: "/homes",
         label: "View Home",
         image: ImageThree,
@@ -32,7 +32,7 @@ export const SliderData = [
     },
     {
         title: "Luxury Villa in Baili, Iadonesia",
-        price: "$4,280,000",
+        price: "$1,280,000",
         path: "/homes",
         label: "View Home",
         image: ImageFour,
