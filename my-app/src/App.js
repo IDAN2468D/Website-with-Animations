@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Navbar from './components/Navbar';
+import Navbar from './components/Header/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { GlobalStyle } from './gloobalStyle';
-import Dropdown from './components/Dropdown';
+import Dropdown from './components/Header/Dropdown';
 import About from './pages/About/About';
 import Home from "./pages/Home/Home";
 import Homes from './pages/Homes/Homes';

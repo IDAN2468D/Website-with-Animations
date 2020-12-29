@@ -1,8 +1,8 @@
 import React from 'react';
 import styled, { css } from "styled-components/macro";
 import { Link } from "react-router-dom";
-import { menuData } from '../data/Home/MenuData';
-import { Button } from './Button';
+import { menuData } from '../../data/Home/MenuData';
+import { Button } from '../../components/Home/Button';
 import { FaBars } from 'react-icons/fa';
 
 const Nav = styled.nav`

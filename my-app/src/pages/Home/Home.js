@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../../components/Hero';
-import InfoSection from '../../components/InfoSection';
+import Hero from '../../components/Home/Hero';
+import InfoSection from '../../components/Home/InfoSection';
 import { SliderData } from '../../data/Home/SliderData';
 import { InfoData } from '../../data/Home/InfoData';
 import { InfoDataTwo } from '../../data/Home/InfoData';
