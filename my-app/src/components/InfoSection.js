@@ -22,7 +22,10 @@ const ColumnLeft = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    line-height: 1.4;
+    padding: 1rem 2rem;
+    color: ${({ reverse }) => (reverse ? "2" : "1")};
 
     h1{
         margin-bottom: 1rem;
