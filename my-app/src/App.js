@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { GlobalStyle } from './gloobalStyle';
-import Hero from './components/Hero';
-import { SliderData } from './data/SliderData';
 import Dropdown from './components/Dropdown';
-import InfoSection from './components/InfoSection';
-import { InfoData } from './data/InfoData';
-import { InfoDataTwo } from './data/InfoData';
+import About from './pages/About/About';
+import Home from "./pages/Home/Home";
+import Homes from './pages/Homes/Homes';
+import Rentals from './pages/Rentals/Rentals';
 
 
 function App() {
@@ -26,9 +25,12 @@ function App() {
       <GlobalStyle />
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Hero slides={SliderData} />
-      <InfoSection {...InfoData} />
-      <InfoSection {...InfoDataTwo} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/homes" component={Homes} />
+        <Route path="/rentals" component={Rentals} />
+      </Switch>
     </Router>
   );
 }

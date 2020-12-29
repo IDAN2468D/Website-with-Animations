@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { menuData } from '../data/MenuData';
+import { menuData } from '../data/Home/MenuData';
 import styled from 'styled-components';
 import { Button } from './Button';
 import { FaTimes } from 'react-icons/fa';

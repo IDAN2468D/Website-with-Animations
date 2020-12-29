@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from "styled-components/macro";
 import { Link } from "react-router-dom";
-import { menuData } from '../data/MenuData';
+import { menuData } from '../data/Home/MenuData';
 import { Button } from './Button';
 import { FaBars } from 'react-icons/fa';
 
@@ -13,6 +13,7 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
+    background-color: black;
 `;
 
 const NavLink = css`
