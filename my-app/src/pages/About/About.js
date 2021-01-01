@@ -1,18 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import { AboutData } from '../../data/About/AboutData';
+import InfoAbout from '../../components/About/InfoAbout';
 
-const Div = styled.div`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( 50%, 50% );
-`;
+
+
 
 function About() {
     return (
-        <Div>
-            <h1>IDAN</h1>
-        </Div>
+        <div>
+            <InfoAbout {...AboutData} />
+        </div>
     )
 }
 

@@ -15,7 +15,7 @@ export const SliderData = [
         alt: "House"
     },
     {
-        title: "Luxury Villa in Baili, Iadonesia",
+        title: "Text HOME to Crisis Counselor",
         price: "$8,280,000",
         path: "/homes",
         label: "View Home",
@@ -42,38 +42,3 @@ export const SliderData = [
 ];
 
 
-//export const SliderDataTwo = [
-//    {
-//        title: "Luxury Villa in Baili, Iadonesia",
-//        price: "$4,280,000",
-//        path: "/homes",
-//        label: "View Home",
-//        inage: ImageOne,
-//        alt: "House"
-//    },
-//    {
-//        title: "Luxury Villa in Baili, Iadonesia",
-//        price: "$4,280,000",
-//        path: "/homes",
-//        label: "View Home",
-//        inage: ImageTwo,
-//        alt: "House"
-//    },
-//    {
-//        title: "Luxury Villa in Baili, Iadonesia",
-//        price: "$4,280,000",
-//        path: "/homes",
-//        label: "View Home",
-//        inage: ImageThree,
-//        alt: "House"
-//    },
-//    {
-//        title: "Luxury Villa in Baili, Iadonesia",
-//        price: "$4,280,000",
-//        path: "/homes",
-//        label: "View Home",
-//        inage: ImageFour,
-//        alt: "House"
-//    },
-//
-//];
